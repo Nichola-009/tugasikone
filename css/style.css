@@ -4,6 +4,7 @@
     padding: 0;
     font-family: 'Nunito', sans-serif; 
     overflow-y: hidden;
+    scroll-behavior: smooth;
     
 }
 .navbar-nav {
@@ -44,20 +45,25 @@
   .one {
    background-image: url(../images/bg1.png);
    background-position:bottom;
+   background-repeat: no-repeat;
   }
   .two {
     background-image: url(../images/bg2.png);
     background-position:bottom;
+    background-repeat: no-repeat;
+
 
 }
   .three {
     background-image: url(../images/bg3.png);
     background-position:top;
+    background-repeat: no-repeat;
+
 
 }
 
   .container {
-    margin-top: 12px;
+    margin: 0.9%;
     width: 100vh;
     height: 100vw;
     transform: rotate(-90deg) translateX(-100vh);
@@ -97,14 +103,81 @@
   .h1three{
     color: yellow;
     text-transform: capitalize;    
+    margin:0;
+    padding: 0;
   }
 
   .h2three {
     color: white;
   }
 
+  .h4three > h4 {
+    margin-top: 4px;
+    margin-left: 3px;
+  }
+
   .h4three > h4 > a {
     text-decoration: none;
-    color: rebeccapurple;
+    color: white;
+    font-size: 20px;
+
   }
+
+  .h4three > h4 > a:hover {
+    transition: all .3s ease-out;
+    color: #87A2FB;
+  }
+
+.kembali {
+  margin-top: 265px;
+  margin-left: 200px;
+}
+
+.kembali > a {
+  text-decoration: none;
+  color: white;
+}
+
+.card > h2 {
+  margin-top: 20px;
+  color: yellow;
+  text-align: center;
+}
+
+.card > p{
+  color: white;
+  padding-top: 100px;
+  font-weight: 500;
+  text-align: center;
+}
+.sma {
+  background-image: url(../images/SMA.png);
+  margin-top: 120px;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+
+  
+ }
+
+ .smp {
+  background-image: url(../images/SMP.png);
+  margin-top: 120px;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+
+  
+ }
+
+ .sd {
+  background-image: url(../images/SD.png);
+  margin-top: 120px;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+ }
+
+ .sma > p {
+  color: white;
+  margin-top: 100px;
+ }
+
 
